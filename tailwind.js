@@ -15,6 +15,7 @@ module.exports = {
       transparent: "transparent",
       current: "currentColor",
       niagaGray: "#585757",
+      niagaGray2x: "#454343",
       black: "#000",
       white: "#fff",
 
