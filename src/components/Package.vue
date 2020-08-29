@@ -1,7 +1,7 @@
 <template>
   <div class="mx-10 md:mx-24 text-center">
     <hr class="h-1 w-20 border-0 mx-auto bg-gray-400 mt-5 md:mt-0 text-gray-400" />
-    <p class="lg:text-3xl text-xl font-body mt-5 md:mt-2">Semua Paket Hosting Sudah Termasuk</p>
+    <p class="lg:text-3xl text-xl font-body mt-5 md:mt-8">Semua Paket Hosting Sudah Termasuk</p>
     <div class="md:grid md:grid-cols-12 mt-2 md:mt-5 lg:mt-10 gap-5">
       <div class="md:col-span-4 flex justify-center mb-6">
         <div>

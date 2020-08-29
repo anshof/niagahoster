@@ -6,6 +6,7 @@
     <Price v-bind:prices="prices" />
     <Table />
     <Package />
+    <LaravelSupport />
   </div>
 </template>
 
@@ -16,12 +17,14 @@ import Quotes from "../components/Quotes";
 import Price from "../components/Price";
 import Table from "../components/Table";
 import Package from "../components/Package";
+import LaravelSupport from "../components/LaravelSupport";
 export default {
   name: "Home",
   components: {
     Banner,
     ThreePanels,
     Quotes,
+    LaravelSupport,
     Package,
     Table,
     Price,
