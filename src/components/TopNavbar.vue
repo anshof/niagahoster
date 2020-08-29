@@ -93,7 +93,7 @@
             >Kontak</router-link>
             <router-link
               to="/blog"
-              class="md:mr-4 font-body md:font-roboto uppercase md:normal-case flex justify-between py-2 md:my-auto text-left sm:inline-block"
+              class="font-body md:font-roboto uppercase md:normal-case flex justify-between py-2 md:my-auto text-left sm:inline-block"
             >Blog</router-link>
           </div>
         </div>

@@ -12,6 +12,7 @@ module.exports = {
       xl: "1280px",
     },
     colors: {
+      niagaBlue: "#008fee",
       transparent: "transparent",
       current: "currentColor",
       niagaGray: "#585757",
