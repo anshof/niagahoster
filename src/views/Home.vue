@@ -5,6 +5,7 @@
     <Quotes />
     <Price v-bind:prices="prices" />
     <Table />
+    <Package />
   </div>
 </template>
 
@@ -14,12 +15,14 @@ import ThreePanels from "../components/ThreePanels";
 import Quotes from "../components/Quotes";
 import Price from "../components/Price";
 import Table from "../components/Table";
+import Package from "../components/Package";
 export default {
   name: "Home",
   components: {
     Banner,
     ThreePanels,
     Quotes,
+    Package,
     Table,
     Price,
   },
