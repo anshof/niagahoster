@@ -1,22 +1,22 @@
 <template>
-  <div class="border-b-2 mb-10 mt-10 text-center">
-    <div class="lg:mx-24 mx-10">
+  <div class="border-b-2 my-10">
+    <div class="lg:mx-24 mx-8">
       <hr class="h-1 w-20 border-0 mx-auto bg-gray-400 mt-5 md:mt-0 text-gray-400" />
       <p class="lg:text-3xl text-xl font-body mt-5 md:mt-8">Mendukung Penuh Framework Laravel</p>
-      <div class="md:grid md:grid-cols-12 gap-5 mx-4 py-3 md:py-5 lg:py-10">
-        <div class="md:col-span-6 text-left text-niagaGray2x flex items-center md:justify-start">
-          <div class="font-body">
+      <div class="md:grid md:grid-cols-12 gap-5 py-3 md:py-5 lg:py-10">
+        <div class="md:col-span-6 text-niagaGray2x flex items-center">
+          <div class="font-body text-left">
             <p
-              class="text-bae lg:text-lg mb-3 lg:mb-8"
+              class="text-sm md:text-base lg:text-lg mb-3 lg:mb-8"
             >Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda.</p>
-            <div class="flex mt-1 lg:mt-3 items-center">
+            <div class="flex mt-1 lg:mt-3 items-center text-left">
               <img src="../assets/images/check-mark.png" class="w-5 h-5 mr-3" alt />
               <span class="text-sm lg:text-base font-roboto">
                 Install Laravel
                 <span class="font-semibold">1 klik</span> dengan Softaculous Installer.
               </span>
             </div>
-            <div class="flex mt-1 lg:mt-3 items-center">
+            <div class="flex mt-1 lg:mt-3 items-center text-left">
               <img src="../assets/images/check-mark.png" class="w-5 h-5 mr-3" alt />
               <span class="text-sm lg:text-base font-roboto">
                 Mendukung ekstensi
@@ -24,7 +24,7 @@
                 <span class="font-semibold">fileinfo.</span>
               </span>
             </div>
-            <div class="flex mt-1 lg:mt-3 items-center mb-4">
+            <div class="flex mt-1 lg:mt-3 items-center mb-4 text-left">
               <img src="../assets/images/check-mark.png" class="w-5 h-5 mr-3" alt />
               <span class="text-sm lg:text-base font-roboto">
                 Tersedia
@@ -35,9 +35,11 @@
             <p
               class="text-xs font-roboto"
             >Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis</p>
-            <button
-              class="font-bold text-white mt-4 text-sm lg:text-base lg:mt-8 rounded-full bg-niagaBlue py-2 px-5"
-            >Pilih Hosting Anda</button>
+            <div class="flex justify-center md:justify-start">
+              <button
+                class="font-bold text-white mt-4 text-sm lg:text-base lg:mt-8 rounded-full bg-niagaBlue py-2 px-5"
+              >Pilih Hosting Anda</button>
+            </div>
           </div>
         </div>
         <div class="md:col-span-6 mt-3 md:mt-0 flex items-center justify-center">

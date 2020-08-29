@@ -7,6 +7,7 @@
     <Table />
     <Package />
     <LaravelSupport />
+    <Modul />
   </div>
 </template>
 
@@ -18,12 +19,14 @@ import Price from "../components/Price";
 import Table from "../components/Table";
 import Package from "../components/Package";
 import LaravelSupport from "../components/LaravelSupport";
+import Modul from "../components/Modul";
 export default {
   name: "Home",
   components: {
     Banner,
     ThreePanels,
     Quotes,
+    Modul,
     LaravelSupport,
     Package,
     Table,
