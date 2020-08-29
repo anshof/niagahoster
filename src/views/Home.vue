@@ -8,6 +8,7 @@
     <Package />
     <LaravelSupport />
     <Modul />
+    <LinuxHosting />
   </div>
 </template>
 
@@ -20,12 +21,14 @@ import Table from "../components/Table";
 import Package from "../components/Package";
 import LaravelSupport from "../components/LaravelSupport";
 import Modul from "../components/Modul";
+import LinuxHosting from "../components/LinuxHosting";
 export default {
   name: "Home",
   components: {
     Banner,
     ThreePanels,
     Quotes,
+    LinuxHosting,
     Modul,
     LaravelSupport,
     Package,
