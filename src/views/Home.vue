@@ -10,6 +10,7 @@
     <Modul />
     <LinuxHosting />
     <SocialMedia />
+    <Bantuan />
   </div>
 </template>
 
@@ -24,12 +25,14 @@ import LaravelSupport from "../components/LaravelSupport";
 import Modul from "../components/Modul";
 import LinuxHosting from "../components/LinuxHosting";
 import SocialMedia from "../components/SocialMedia";
+import Bantuan from "../components/Bantuan";
 export default {
   name: "Home",
   components: {
     Banner,
     ThreePanels,
     Quotes,
+    Bantuan,
     SocialMedia,
     LinuxHosting,
     Modul,
