@@ -11,6 +11,7 @@
     <LinuxHosting />
     <SocialMedia />
     <Bantuan />
+    <Footer />
   </div>
 </template>
 
@@ -26,12 +27,14 @@ import Modul from "../components/Modul";
 import LinuxHosting from "../components/LinuxHosting";
 import SocialMedia from "../components/SocialMedia";
 import Bantuan from "../components/Bantuan";
+import Footer from "../components/Footer";
 export default {
   name: "Home",
   components: {
     Banner,
     ThreePanels,
     Quotes,
+    Footer,
     Bantuan,
     SocialMedia,
     LinuxHosting,

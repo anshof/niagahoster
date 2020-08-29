@@ -1,6 +1,6 @@
 <template>
   <div class="lg:grid lg:grid-cols-12 mx-10 md:mx-32 lg:mx-24 my-10 font-body">
-    <div v-bind:key="price.id" v-for="price in prices" class="lg:col-span-3 bg-white">
+    <div v-bind:key="price.id" v-for="price in prices" class="lg:col-span-3 mb-5 mr-2 bg-white">
       <div class="border py-2 text-3xl font-bold">{{price.title}}</div>
       <div class="border py-2">
         <p class="line-through">Rp {{price.realPrice}}</p>
