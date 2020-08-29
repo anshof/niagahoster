@@ -1,13 +1,7 @@
 <template>
   <div class="lg:grid lg:grid-cols-12 mx-10 md:mx-32 lg:mx-24 my-10 font-body">
-    <div
-      v-bind:key="price.id"
-      v-for="price in prices"
-      class="lg:col-span-3 transform hover:scale-125 transition duration-500 ease-in-out z-0 hover:z-10 bg-white"
-    >
-      <div
-        class="border py-2 text-3xl font-bold hover:bg-niagaBlue hover:absolute hover:z-10 hover:text-white"
-      >{{price.title}}</div>
+    <div v-bind:key="price.id" v-for="price in prices" class="lg:col-span-3 bg-white">
+      <div class="border py-2 text-3xl font-bold">{{price.title}}</div>
       <div class="border py-2">
         <p class="line-through">Rp {{price.realPrice}}</p>
         <span>
