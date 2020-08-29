@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-10 mt-10 text-center">
+  <div class="md:mb-10 mb-3 mt-10 text-center">
     <div class="lg:mx-32 mx-10">
       <p
         class="lg:text-3xl text-xl font-body mt-5 md:mt-8"

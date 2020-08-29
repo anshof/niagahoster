@@ -9,6 +9,7 @@
     <LaravelSupport />
     <Modul />
     <LinuxHosting />
+    <SocialMedia />
   </div>
 </template>
 
@@ -22,12 +23,14 @@ import Package from "../components/Package";
 import LaravelSupport from "../components/LaravelSupport";
 import Modul from "../components/Modul";
 import LinuxHosting from "../components/LinuxHosting";
+import SocialMedia from "../components/SocialMedia";
 export default {
   name: "Home",
   components: {
     Banner,
     ThreePanels,
     Quotes,
+    SocialMedia,
     LinuxHosting,
     Modul,
     LaravelSupport,
